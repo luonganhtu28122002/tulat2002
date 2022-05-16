@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson Text');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f3f2f2;
+    font-family: 'Hammersmith One', sans-serif;
+}
+#country-login-register{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.country{
+    width: 170px;
+    height: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+#country-login-register > .country > p{
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+#country-login-register > .country > img{
+    width: 55px;
+    height: 37px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -44px;
+}
+#country-login-register > .login-register{
+        width: 170px;
+        height: 50px;
+        float: right;
+        position: relative;
+        
+        margin-top: -50px;
+        margin-right: 100px;
+}
+#country-login-register > .login-register > a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 50px;
+}
+#country-login-register > .login-register > a:hover{
+    color: aquamarine;
+}
+#header{
+    width: 80%;
+    height: 340px;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+}
+#header > .logo{
+    text-align: center;
+}
+#header > .logo > a > img{
+    width: 130px;
+    height: 130px;  
+}
+#header > .search{
+    text-align: center;
+}
+#header > .search > input {
+    width: 650px;
+    height: 50px;
+    margin-top: 35px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+    border: #ebe6e6;
+}
+#header > .search > i{
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: 48px;
+    position: absolute;
+    color:rgb(92, 91, 91);
+}
+#header > .menu{
+    text-align: center;
+}
+#header > .menu > ul > li{
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 90px;
+    font-size: 28px;
+    margin-top: 70px;
+}
+#header > .menu > ul > li > a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+#header > .menu > ul > li > a:hover{
+    color:rgb(197, 43, 56);
+    font-size: 26px;
+    transition: .3s ease-in-out;
+    transition: all 0.4s;
+}
+#slidershow{
+    width: 80%;
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+#slidershow > div > img{
+    width: 90%;
+    height: 650px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.Calligraphy{
+    text-align: center;
+    font-size: 44px;
+    color: rgb(92, 91, 91);
+    margin-bottom: 40px;
+}
+#Calligraphy{
+    width: 80%;
+    height: 457px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eeeaea;
+    margin-top: 40px;
+}
+
+#Calligraphy > div {
+    width: 250px;
+    height: 550px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-left: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+#Calligraphy > div > img{
+    width: 250px;
+    height: 320px;
+    transition: all 0.4s;
+    margin-bottom: 4.4px;
+}
+#Calligraphy > div > img:hover{
+    transform: scale(1.05);
+}
+#Calligraphy > div > .one, .two, .three, .four {
+
+    position: sticky;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+.information-us{
+    position: absolute;
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    margin-top: 70px;
+    color: rgb(92, 91, 91);
+}
+#Inspire{
+    width: 80%;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    background-color: #eeeaea;
+}
+.inspire-peoples{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    top: 8%; 
+    border-right: 1px solid grey;
+}
+#Inspire > .inspire-peoples > p {
+    font-size: 24px;
+    width: 500px;
+    height: 100px;
+    margin-left: 70px;
+}
+#Inspire > .inspire-peoples > img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    margin-left: 205px;
+    margin-top: 40px;
+}
+#Inspire > .inspire-peoples > .michel{
+    margin-left: 205px;
+    margin-top: 15px;
+}
+#Inspire > .inspire-peoples > p {
+    color: rgb(92, 91, 91);
+}
+#Inspire > .us{
+    height: 300px;
+    width: 800px;
+    margin-left: 680px;
+    font-size: 22px;
+    margin-top: 30px;
+    position: absolute;
+}
+#Inspire > .us > img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin-top: 22px;
+    margin-left: 10px
+}
+#Inspire > .us > .images-5{
+   margin-left: 270px;
+   margin-top: 20px;
+}
+#Inspire > .us > p{
+    color: rgb(92, 91, 91);
+}
+.famous-paintings{
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    margin-top: 50px;
+    color: rgb(92, 91, 91);
+}
+#item-hot{
+    width: 80%;
+    height: 2100px;
+    margin: 0 auto;
+    background-color: #eeeaea;
+    margin-top: 50px;
+}
+.item-one{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+#item-hot > .item-one > img{
+    width: 300px;
+    height: 450px;
+}
+#item-hot > .item-one > a{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    text-decoration: none;
+    color: black;
+}
+#item-hot > .item-one > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-one > .p-1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-two{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+#item-hot > .item-two > img {
+    width: 300px;
+    height: 500px;
+}
+#item-hot > .item-two > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-two > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-two > .p-2{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-three{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+#item-hot > .item-three > img {
+    width: 300px;
+    height: 400px;
+}
+#item-hot > .item-three > a{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    text-decoration: none;
+    color: black;
+}
+#item-hot > .item-three > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-three > .p-3{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.item-four{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+#item-hot > .item-four > img {
+    width: 300px;
+    height: 430px;
+}
+#item-hot > .item-four > a{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    text-decoration: none;
+    color: black;
+}
+#item-hot > .item-four > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-four> .p-4{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-five{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+#item-hot > .item-five > img {
+    width: 300px;
+    height: 430px;
+}
+#item-hot > .item-five > img {
+    width: 300px;
+    height: 400px;
+}
+#item-hot > .item-five > a{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    text-decoration: none;
+    color: black;
+}
+#item-hot > .item-five > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-five> .p-5{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-six{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 65px;
+}
+#item-hot > .item-six > img {
+    width: 300px;
+    height: 500px;
+}
+#item-hot > .item-six > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-six > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-six > .p-6{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-seven{
+    width: 300px;
+    height: 650px;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: -35px;
+
+}
+#item-hot > .item-seven > img{
+    width: 300px;
+    height: 550px;
+}
+#item-hot > .item-seven > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-seven > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-seven > .p-7{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-eight{
+    width: 300px;
+    height: 650px;
+    float: left;
+    margin-left: 75px;
+    text-align: center;
+    margin-top: -5px;
+
+}
+#item-hot > .item-eight > img{
+    width: 300px;
+    height: 550px;
+}
+#item-hot > .item-eight  > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-eight  > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-eight  > .p-8{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-night{
+    width: 300px;
+    height: 650px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: -110px;
+}
+#item-hot > .item-night > img{
+    width: 300px;
+    height: 550px;
+}
+#item-hot > .item-night  > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-night  > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-night  > .p-9{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-ten{
+    width: 300px;
+    height: 650px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#item-hot > .item-ten > img{
+    width: 300px;
+    height: 550px;
+}
+#item-hot > .item-ten  > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-ten > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-ten > .p-10{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-elevent{
+    width: 300px;
+    height: 700px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: -15px;
+
+}
+#item-hot > .item-elevent > img{
+    width: 250px;
+    height: 650px;
+}
+#item-hot > .item-elevent  > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-elevent > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-elevent > .p-11{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.item-twelve{
+    width: 300px;
+    height: 700px;
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+#item-hot > .item-twelve > img{
+    width: 250px;
+    height: 650px;
+}
+#item-hot > .item-twelve  > a{
+        font-size: 23px;
+        margin-top: 10px;
+        font-family: 'Crimson Pro', serif;
+        text-decoration: none;
+        color: black;
+}
+#item-hot > .item-twelve > p{
+    font-family: "Crimson Text";
+    font-size: 18px;
+}
+#item-hot > .item-twelve > .p-12{
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.item-one, .item-two, .item-three, .item-four, .item-five, .item-six, .item-seven, .item-eight, .item-night,
+.item-ten, .item-elevent, .item-twelve:hover{
+    cursor: pointer;
+}
+#item-hot > div > img:hover{
+    opacity: 0.7;
+}
+#item-hot > div > a:hover{
+    color:rgb(150, 131, 131);
+}
+.Rating{
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    margin-top: 50px;
+    color: rgb(92, 91, 91);
+}
+#feed-back{
+    width: 80%;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: #eeeaea;
+}
+#feed-back > nav{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+#feed-back > .right{
+    margin-left: 1150px;
+    margin-top: 250px;
+    position: absolute;
+}
+#feed-back > .right > i{
+    font-size: 40px;
+}
+#feed-back > nav > i:hover{
+    color:rgb(114, 111, 111);
+    cursor: pointer;
+}
+#feed-back > .left{
+    margin-left: 350px;
+    margin-top: 250px;
+    position: absolute;
+}
+#feed-back > .left > i{
+    font-size: 40px;
+}
+
+#feed-back > .feedback-people-1{
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 35%;
+}
+#feed-back > .feedback-people-1 > img{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#feed-back > .feedback-people-1 > p{
+    font-size: 27px;
+    margin-top: 20px;
+    font-family: "Crimson Text";
+    margin-bottom: 15px;
+}
+#feed-back > .feedback-people-1 > span{
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+}
+
+#feed-back > .feedback-people-2{
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 35%;
+}
+#feed-back > .feedback-people-2 > img{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#feed-back > .feedback-people-2 > p{
+    font-size: 27px;
+    margin-top: 20px;
+    font-family: "Crimson Text";
+    margin-bottom: 15px;
+}
+#feed-back > .feedback-people-2 > span{
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+}
+
+#feed-back > .feedback-people-3{
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 35%;
+}
+#feed-back > .feedback-people-3 > img{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#feed-back > .feedback-people-3 > p{
+    font-size: 27px;
+    margin-top: 20px;
+    font-family: "Crimson Text";
+    margin-bottom: 15px;
+}
+#feed-back > .feedback-people-3 > span{
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+}
+
+#footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    background-color: black;
+}
+
+#footer > .footer-1{
+    width: 600px;
+    height: 350px;
+    float: left;
+    margin-left: 20px;
+    border-right: 1px solid wheat;
+}
+#footer > .footer-1 > p{
+    margin-top: 25px;
+    font-size: 19px;
+    color: rgb(214, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#footer > .footer-1 > p > a{
+    margin-top: 30px;
+    font-size: 20px;
+    color:rgb(214, 212, 212);
+    text-decoration: none;
+}
+#copyright{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(54, 54, 54);
+}
+#copyright > p {
+    text-align: center;
+    line-height: 50px;
+    color: rgb(214, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
